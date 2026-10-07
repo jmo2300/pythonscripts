@@ -149,7 +149,7 @@ Met het Pythonscript **toondata.py** kan eenvoudig de data van onze "temperature
 python toondata.py
 ```
 
-## ---==== 8. cronjob datalogger ===---
+## ---==== 8. Cronjob datalogger ===---
 Met volgend commando kan je elk kwartier de datalogger opstarten vanuit crontab
 ```bash
 crontab -e
