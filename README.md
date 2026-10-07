@@ -31,6 +31,11 @@ sudo raspi-config
 * Ga terug naar hoofdmenu  (kies Back)
 * Kies Finish
 
+Download VNCviewer:  TigerVNC via [deze link](https://sourceforge.net/projects/tigervnc/)
+en kies "Released /stable/1.16.2/vncviewer64-1.16.2.exe"
+
+
+Start deze VNC-client op, geef je gebruikersnaam en paswoord.
 Via een terminal op je Raspi Desktop kan je volgend commando uitvoeren:
 
 ```bash
