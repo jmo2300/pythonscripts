@@ -45,7 +45,7 @@ sudo shutdown now
 ```
 en sluiten de DHT op deze manier aan:
 <!-- Afbeelding aansluiting DHT22 -->
-![Alt tekst beschrijving](https://jmo2300/pythonscripts/AansluitingDHT22.png)
+![Aansluiting van DHT22 op Raspberry Pi]([https://jmo2300/pythonscripts/AansluitingDHT22.png](https://github.com/jmo2300/pythonscripts/blob/main/AansluitingDHT22.png))
 
 
 
