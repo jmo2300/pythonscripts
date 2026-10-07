@@ -43,7 +43,12 @@ Let op: we schakelen de Raspbery Pi volledig uit met onderstaand commando wannee
 ```bash
 sudo shutdown now
 ```
-en sluiten de DHT op deze manier aan:
+De pinnen van een Raspberry Pi noemen we GPIO (General Purpose Input/Output)
+[Meer info](https://nl.wikipedia.org/wiki/General_Purpose_Input/Output)
+![GPIO van Raspberry Pi](https://raw.githubusercontent.com/jmo2300/pythonscripts/refs/heads/main/GPIO.png)
+
+
+We sluiten de DHT op deze manier aan:
 <!-- Afbeelding aansluiting DHT22 -->
 ![Aansluiting van DHT22 op Raspberry Pi](https://raw.githubusercontent.com/jmo2300/pythonscripts/refs/heads/main/AansluitingDHT22.png)
 
