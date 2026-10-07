@@ -107,11 +107,23 @@ QUIT
 Voer vanuit je homedirectory volgende commando's **één voor één** uit:
 ```bash
 cd
+```
+```bash
 git clone https://github.com/jmo2300/pythonscripts
+```
+```bash
 cd pythonscripts
+```
+```bash
 python -m venv dhtvenv
+```
+```bash
 source dhtvenv/bin/activate
+```
+```bash
 pip install adafruit-circuitpython-dht
+```
+```bash
 pip install matplotlib mysql-connector-python
 ```
 Je kan vanuit je directory **pythonscripts** al een eerste test **leesdht.py** uitvoeren om de temperatuur en luchtvochtigheid te lezen van de sensor DHT22
@@ -150,6 +162,8 @@ vanaf nu wordt elk kwartier data (tijdstip, temperatuur en luchtvochtigheid gesc
 De locatie van de webserver staat op /var/www/html.  Met onderstaand commando kan je de voorbeeldpagina index.php beschikbaar maken op jouw website.
 ```bash
 sudo rm /var/www/html/index.html
+```
+```bash
 sudo cp ~/pythonscripts/index.php /var/www/html/
 ```
 Surf met een webbrowser vanaf je laptop (op ons "STEM"-netwerk) naar jouw ipadres  10.16.10.25  (het laatste cijfer is hetzelfde als de nummer van jouw Raspberry Pi)
